@@ -1,5 +1,6 @@
 console.log("Hola mundo!");
 
+
 let n1,n2;
 
 if(n1>n2){
@@ -11,3 +12,8 @@ else if(n2>n1){
 else{
     console.log("Los números son iguales");
 }
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i)+" gatitos";
+}
+
