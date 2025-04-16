@@ -1,4 +1,4 @@
 console.log("Hola mundo!");
 for (let i = 1; i <= 10; i++) {
-    console.log(i)+" gatitos";
+    console.log(i + " gatitos") ;
 }
