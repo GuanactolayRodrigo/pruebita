@@ -3,4 +3,10 @@ Crear un script que capture el evento clic del botón y que cambie el texto del 
 por otro.*/
 
 
+let parrafo = document.getElementById("miParrafo");
+let boton = document.getElementById("miBoton");
 
+boton.addEventListener("click", function() {
+    parrafo.innerHTML = "¡El texto ha sido cambiado!";
+    parrafo.style.color = "blue"; 
+});
