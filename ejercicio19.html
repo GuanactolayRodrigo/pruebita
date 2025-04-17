@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de datos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://misanimales.com/wp-content/uploads/2018/11/caracteristicas-capibara.jpg?auto=webp&quality=45&width=3840&crop=16:9');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+        h1 {
+            text-shadow: 1px 1px 2px white;
+            color: #000000;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            margin: 0 auto;
+        }
+        input{
+            border-radius: 10px;
+            margin: 5px 0;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>BIENVENIDO ESTIMADO<h1>
+    <form id="datosFormulario">INGRESE SUS DATOS:</form>
+        <label for="nombreForm">Nombre:</label>
+        <input type="text" id="nombreForm" name="nombreForm" required>
+        <br><br>
+        <label for="apellidoForm">Apellido:</label>
+        <input type="text" id="apellidoForm" name="apellidoForm" required>
+        <br><br>
+        <label for="luForm">LU:</label>
+        <input type="number" id="luForm" name="luForm" required>
+        <br><br>
+        <button type="submit" id="guardarDatos">Enviar</button>
+    </form>
+
+    <script type="module" src="./ej19.js"></script>
+
+</body>
+</html>
