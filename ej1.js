@@ -5,6 +5,7 @@ Somos (el valor de la variable) y estamos aprendiendo javascript*/
 
 let grupo11 = "Cari, Rodrigo, Victor, Matias";
 
-let integrantes = nombres => console.log("Somos " + nombres + " aprendiendo javascript");
+let nombres = (grupo11) => console.log("Somos " + grupo11 + " y estamos aprendiendo javascript."); ;
 
-integrantes(grupo11);
+
+nombres(grupo11);
