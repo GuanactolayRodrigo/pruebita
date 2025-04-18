@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Países y Capitales de América</title>
+ 
+</head>
+<body>
+  <h1>Selecciona un país de América</h1>
+
+  <label for="pais">País:</label>
+  <select id="pais">
+    <option value="">-- Selecciona un país --</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Canadá">Canadá</option>
+    <option value="México">México</option>
+    <option value="Chile">Chile</option>
+    <option value="Colombia">Colombia</option>
+  </select>
+
+  <label for="capital">Capital:</label>
+  <select id="capital" disabled>
+    <option value="">-- Capital --</option>
+  </select>
+
+  <script src="ej20.js"></script>
+</body>
+</html>
+
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    select {
+      padding: 5px;
+      width: 200px;
+    }
+  </style>
