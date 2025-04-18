@@ -6,9 +6,9 @@
 </head>
 <body>
   
-  <label><input type="radio" name="lenguaje" value="JavaScript"> JavaScript</label><br>
-  <label><input type="radio" name="lenguaje" value="Python"> Python</label><br>
-  <label><input type="radio" name="lenguaje" value="Java"> Java</label><br>
+  <label><input class="inp" type="radio" name="lenguaje" value="JavaScript"> JavaScript</label><br>
+  <label><input class="inp" type="radio" name="lenguaje" value="Python"> Python</label><br>
+  <label><input class="inp" type="radio" name="lenguaje" value="Java"> Java</label><br>
 
   <p id="resultado">El lenguaje seleccionado es: ninguno</p>
 
@@ -19,39 +19,30 @@
 </html>
 
 <style>
-    body {
+  body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    padding: 40px;
+    margin: 0;
+    padding: 20px;
     text-align: center;
-    }
-
-    h1 {
-    color: #333;
-    }
-
-    form {
-    margin: 20px 0;
-    }
-
-    label {
+  }
+  label {
     display: block;
     margin: 10px 0;
-    font-size: 18px;
-    cursor: pointer;
-    }
-
-    input[type="radio"] {
+  }
+  #resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    border-color: rgb(7, 67, 104);
+    border-style: solid;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(0, 191, 255);
+  }
+  input[type="radio"] {
     margin-right: 10px;
-    }
+  }
 
-    #resultado {
-    margin-top: 30px;
-    padding: 20px;
-    font-size: 22px;
-    color: #fff;
-    background-color: #2196f3;
-    border-radius: 8px;
-    display: inline-block;
-    }
 </style>
