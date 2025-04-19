@@ -5,3 +5,8 @@ export let mostrarPares = () => {
         console.log(i);
     }
 };
+
+export let cambiarTexto = (obj) => {
+    obj.innerHTML = "¡El texto ha sido cambiado!";
+    obj.style.color = "blue"; 
+}
