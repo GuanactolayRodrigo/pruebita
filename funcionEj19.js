@@ -1,7 +1,7 @@
 export const mostrarDatos = () => {
-    const nombre = document.querySelector('#nombreForm').value;
-    const apellido = document.querySelector('#apellidoForm').value;
-    const lu = document.querySelector('#luForm').value;
+    const nombre = document.querySelector('#nombre').value;
+    const apellido = document.querySelector('#apellido').value;
+    const lu = document.querySelector('#lu').value;
     
     if (!nombre || !apellido || !lu) {
         alert('Por favor, complete todos los campos.');

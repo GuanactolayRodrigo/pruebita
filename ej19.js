@@ -1,4 +1,4 @@
-import { mostrarDatos } from './funcionEj19.js';
+import { mostrarDatos } from './ejercicio19-funcion.js';
 
 const boton = document.querySelector('#guardarDatos');
 boton.addEventListener('click', mostrarDatos);
