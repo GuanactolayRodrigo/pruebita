@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 24</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: #65ce5b;
+        }
+        h1{
+            text-shadow: 2px 2px 4px white;
+            color: #020000;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Presione 'click' para cambiar de color el fondo.</h1>
+    <button id="cambioColor">Click</button>
+
+    <script type="module" src="./ej24.js"></script>
+</body>
+</html>
